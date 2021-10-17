@@ -1,0 +1,34 @@
+---
+title: again try old post
+author: elikesprogramming
+date: '2021-10-17'
+slug: index.en-us
+categories:
+  - R
+tags: []
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>Grünen-Länderrat billigt Koalitionsgespräche
+Nach 16 Jahren in der Opposition nimmt die Partei eine weitere Hürde auf dem Weg zur Regierungsbeteiligung im Bund. Die Führungsriege gibt sich hoffnungsfroh.</p>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## -- Attaching packages --------------------------------------- tidyverse 1.3.0 --</code></pre>
+<pre><code>## v ggplot2 3.3.5     v purrr   0.3.4
+## v tibble  3.1.5     v dplyr   1.0.7
+## v tidyr   1.1.3     v stringr 1.4.0
+## v readr   2.0.2     v forcats 0.5.1</code></pre>
+<pre><code>## Warning: package &#39;ggplot2&#39; was built under R version 4.0.5</code></pre>
+<pre><code>## Warning: package &#39;tibble&#39; was built under R version 4.0.5</code></pre>
+<pre><code>## Warning: package &#39;tidyr&#39; was built under R version 4.0.4</code></pre>
+<pre><code>## Warning: package &#39;readr&#39; was built under R version 4.0.5</code></pre>
+<pre><code>## Warning: package &#39;dplyr&#39; was built under R version 4.0.5</code></pre>
+<pre><code>## Warning: package &#39;forcats&#39; was built under R version 4.0.3</code></pre>
+<pre><code>## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>mtcars %&gt;% 
+  ggplot(aes(x = mpg, y = disp)) +
+  geom_point()</code></pre>
+<p><img src="/2021-10-17-again-try-old-post/index.en-us_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
