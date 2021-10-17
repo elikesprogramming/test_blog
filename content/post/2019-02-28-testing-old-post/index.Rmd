@@ -1,0 +1,16 @@
+---
+title: testing old post
+author: elikesprogramming
+date: '2019-02-28'
+slug: testing-old-post
+categories:
+  - R
+tags: []
+---
+
+What about this 
+
+```{r}
+hist(mtcars$mpg)
+```
+
